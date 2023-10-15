@@ -3,22 +3,25 @@
     box-sizing: border-box;
 }
 
-body{
-    background-color: #FFFFFF;
+body {
+    background-color: #5d5d5e;
+}
+
+h1{
+    text-align-last: center;
 }
 
 .content {
-    padding: 1rem;
-    background-color: #FFFFFF;
+    width: 100vw;
     height: 100vh;
-    width: 100vh;
+    padding: 1rem;
 }
 
 @media screen and (min-width: 992px) {
     .content {
-      max-width: 992px;
-      height: 100vh;
-      margin: 1rem auto;
-      border-radius: 1rem;
+        max-width: 992px;
+        height: auto;
+        margin: 1rem auto;
+        border-radius: 1rem;
     }
-} 
+}
